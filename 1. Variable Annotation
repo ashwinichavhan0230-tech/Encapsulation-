@@ -1,0 +1,21 @@
+name: str = "Ashwini"
+age: int = 20
+salary: float = 25000.50
+
+print(name)
+print(age)
+print(salary)
+#Output
+
+
+
+#Function Annotation
+def add(a: int, b: int) -> int:
+    return a + b
+
+print(add(10, 20))
+#output
+30
+
+
+
